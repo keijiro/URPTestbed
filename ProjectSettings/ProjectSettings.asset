@@ -608,7 +608,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: URP_ENABLE_CLUSTERED_UI
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

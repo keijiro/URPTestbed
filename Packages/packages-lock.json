@@ -71,6 +71,23 @@
         "com.unity.render-pipelines.core": "12.1.4"
       }
     },
+    "jp.keijiro.noiseshader": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.shadergraphassets": {
+      "version": "1.0.8",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.shadergraph": "10.0.0",
+        "jp.keijiro.noiseshader": "2.0.0"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "com.unity.modules.imgui": {
       "version": "1.0.0",
       "depth": 3,
