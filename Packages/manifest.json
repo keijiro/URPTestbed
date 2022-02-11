@@ -7,7 +7,9 @@
     }
   ],
   "dependencies": {
-    "jp.keijiro.shadergraphassets": "1.0.8",
+    "jp.keijiro.danish-statues": "1.0.0",
+    "jp.keijiro.metamesh": "1.0.1",
+    "jp.keijiro.shadergraphassets": "1.0.9",
     "com.unity.render-pipelines.universal": "12.1.4",
     "com.unity.visualeffectgraph": "12.1.4"
   }
