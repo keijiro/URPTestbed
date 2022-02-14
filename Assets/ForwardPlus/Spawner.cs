@@ -1,6 +1,8 @@
 using UnityEngine;
 
-sealed class ForwardPlusTest : MonoBehaviour
+namespace UrpTestbed.ForwardPlus {
+
+sealed class Spawner : MonoBehaviour
 {
     [SerializeField] GameObject _template = null;
 
@@ -24,3 +26,5 @@ sealed class ForwardPlusTest : MonoBehaviour
         Destroy(_template);
     }
 }
+
+} // namespace UrpTestbed.ForwardPlus

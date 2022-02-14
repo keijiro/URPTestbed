@@ -932,7 +932,7 @@ GameObject:
   - component: {fileID: 956930369}
   - component: {fileID: 956930370}
   m_Layer: 0
-  m_Name: Test
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -949,9 +949,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1007412679}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &956930370
 MonoBehaviour:
@@ -975,6 +976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1007412679}
+  - component: {fileID: 1007412680}
   m_Layer: 0
   m_Name: Light Sphere
   m_TagString: Untagged
@@ -996,9 +998,23 @@ Transform:
   m_Children:
   - {fileID: 773690559}
   - {fileID: 1571768240}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 956930369}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1007412680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007412678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b07b60ab34545c8b4fc19eb529f1fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 0.5
+  _displace: 0.2
 --- !u!1 &1037497013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,5 +1550,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98afb752ac4b24e81a0373111ec96978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _intensity: 0.5
+  _drift: 0
+  _jitter: 0
+  _jump: 0
+  _shake: 0
   _shader: {fileID: -6465566751694194690, guid: 29755fb2484584f1587837a20e21d2f5, type: 3}
