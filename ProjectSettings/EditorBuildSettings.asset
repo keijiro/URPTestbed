@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/DepthPrepass.unity
+    path: Assets/DepthPrepass/Benchmark/Benchmark.unity
     guid: 4be68f795da8a49e793d625fe6228557
   m_configObjects: {}
