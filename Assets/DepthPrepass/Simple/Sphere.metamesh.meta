@@ -29,7 +29,7 @@ ScriptedImporter:
     Axis: 1
   _icosphere:
     Radius: 1
-    Subdivision: 4
+    Subdivision: 5
   _cylinder:
     TopRadius: 1
     BottomRadius: 1

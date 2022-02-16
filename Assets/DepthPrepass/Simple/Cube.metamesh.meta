@@ -43,7 +43,7 @@ ScriptedImporter:
     Height: 1
     Depth: 1
     Divisions: 3
-    Radius: 0.02
+    Radius: 0.01
   _ring:
     Radius: 1
     Width: 0.1
