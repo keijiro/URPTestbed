@@ -49,7 +49,7 @@ MonoBehaviour:
   m_RenderingMode: 0
   m_DepthPrimingMode: 0
   m_AccurateGbufferNormals: 0
-  m_ClusteredRendering: 0
+  m_ClusteredRendering: 1
   m_TileSize: 32
   m_IntermediateTextureMode: 0
 --- !u!114 &6920161009103904037
