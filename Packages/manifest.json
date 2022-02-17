@@ -12,6 +12,7 @@
     "jp.keijiro.metamesh": "1.0.1",
     "jp.keijiro.shadergraphassets": "1.0.10",
     "jp.keijiro.vfxgraphassets": "1.0.9",
+    "com.unity.recorder": "4.0.0-pre.3",
     "com.unity.render-pipelines.universal": "12.1.4",
     "com.unity.visualeffectgraph": "12.1.4"
   }
