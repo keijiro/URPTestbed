@@ -3,7 +3,7 @@ using UnityEngine;
 namespace UrpTestbed {
 
 [RequireComponent(typeof(Camera))]
-public sealed class PostEffect : MonoBehaviour
+public sealed class GlitchEffect : MonoBehaviour
 {
     [SerializeField, Range(0, 1)] float _drift;
     [SerializeField, Range(0, 1)] float _jitter;
