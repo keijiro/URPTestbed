@@ -219,6 +219,20 @@
             },
             "m_InputSlot": {
                 "m_Node": {
+                    "m_Id": "0a1b50bd83074f38bafed9ee9830d97e"
+                },
+                "m_SlotId": 2
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "358e2ee5d8ea411dab15864f9d44ee4f"
+                },
+                "m_SlotId": 3
+            },
+            "m_InputSlot": {
+                "m_Node": {
                     "m_Id": "0e3b2016ace04ca8879f5b5aeac70b66"
                 },
                 "m_SlotId": 2
@@ -601,15 +615,18 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 972.5000610351563,
-            "y": 0.0,
-            "width": 120.49993896484375,
-            "height": 77.0
+            "x": 1164.5,
+            "y": 422.0000305175781,
+            "width": 85.5,
+            "height": 100.99996948242188
         }
     },
     "m_Slots": [
         {
             "m_Id": "6afa54e0c86e472e90047c373a073643"
+        },
+        {
+            "m_Id": "3bb708d472a64feb988f7a8f7404c040"
         }
     ],
     "synonyms": [],
@@ -1164,6 +1181,21 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "3bb708d472a64feb988f7a8f7404c040",
+    "m_Id": 2,
+    "m_DisplayName": "Atten",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Atten",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
