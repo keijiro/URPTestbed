@@ -108,6 +108,17 @@
       },
       "url": "https://registry.npmjs.com"
     },
+    "jp.keijiro.klak.timeline.procedural-motion": {
+      "version": "1.0.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.timeline": "1.4.2",
+        "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "jp.keijiro.metamesh": {
       "version": "1.0.1",
       "depth": 0,
@@ -166,7 +177,7 @@
     },
     "com.unity.modules.imgui": {
       "version": "1.0.0",
-      "depth": 3,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {}
     },
