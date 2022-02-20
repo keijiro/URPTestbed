@@ -12,6 +12,10 @@ sealed class Spawner : MonoBehaviour
     {
         var rand = new Random(100);
 
+        rand.NextUInt();
+        rand.NextUInt();
+        rand.NextUInt();
+
         for (var s = 0; s < 8; s++)
         {
             for (var t = 0; t < 4; t++)
