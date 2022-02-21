@@ -49,10 +49,10 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _ClipPlane: {r: 0, g: 0, b: 1, a: 1}
-    - _NoiseEffector: {r: 0, g: -2, b: 0, a: -1.4}
+    - _ClipPlane: {r: 0, g: -21.21, b: 21.21, a: 1.5}
+    - _NoiseEffector: {r: 0, g: -1, b: 0, a: 1}
     - _NoiseFrequency: {r: 10, g: 1, b: 16.42, a: 0}
-    - _NoiseParams: {r: 10, g: 0.5, b: 16, a: 0}
+    - _NoiseParams: {r: 10, g: -2, b: 8, a: 1}
     - _NoiseScroll: {r: 0, g: 1, b: 0, a: 0}
-    - _ScrollSpeed: {r: 5, g: 0.6, b: 0, a: 0}
+    - _ScrollSpeed: {r: 5, g: 0.4, b: 1, a: 0}
   m_BuildTextureStacks: []
