@@ -135,6 +135,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "0fdd7f5b124e445db76d7f1065f03d9b"
+                },
+                "m_SlotId": 5
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "b9af964c8b7a4456b8c7bfdb3e643010"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "4e271144ecc44449833dea827cf452c1"
                 },
                 "m_SlotId": 0
@@ -222,9 +236,6 @@
                 "m_Id": "21a208fd35984368a214ea6923ac6e7d"
             },
             {
-                "m_Id": "b9af964c8b7a4456b8c7bfdb3e643010"
-            },
-            {
                 "m_Id": "1512c2788aa84aaaa890b862ef60828c"
             },
             {
@@ -235,6 +246,9 @@
             },
             {
                 "m_Id": "4057334454ac4361909e95ef5df7b845"
+            },
+            {
+                "m_Id": "b9af964c8b7a4456b8c7bfdb3e643010"
             }
         ]
     },
@@ -327,6 +341,9 @@
         },
         {
             "m_Id": "4f78c765ed314550a3a26b34bd508abc"
+        },
+        {
+            "m_Id": "ba72b7d9aede45e69a65a4ca355dba6b"
         }
     ],
     "synonyms": [],
@@ -1042,8 +1059,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 3.5001220703125,
-            "y": 325.5,
+            "x": 6.0,
+            "y": 533.5,
             "width": 200.0,
             "height": 41.0
         }
@@ -1061,6 +1078,29 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Emission"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "ba72b7d9aede45e69a65a4ca355dba6b",
+    "m_Id": 5,
+    "m_DisplayName": "Emission",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Emission",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
 }
 
 {
