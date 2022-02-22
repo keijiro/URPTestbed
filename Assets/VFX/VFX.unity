@@ -256,7 +256,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83666836}
-  m_LocalRotation: {x: 0.01864454, y: -0.9031848, z: 0.03943391, w: 0.42703}
+  m_LocalRotation: {x: 0.018434355, y: -0.9054452, z: 0.039532606, w: 0.422216}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -264,7 +264,7 @@ Transform:
   - {fileID: 1289776378}
   m_Father: {fileID: 499913163}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 5, y: -129.39, z: 0}
+  m_LocalEulerAnglesHint: {x: 5, y: -130, z: 0}
 --- !u!1 &107463259
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,6 +534,8 @@ PlayableDirector:
     value: {fileID: 1903955281}
   - key: {fileID: 8441917372423994986, guid: ad41cfa5b9fb648cfb4329d5b39f5791, type: 2}
     value: {fileID: 262771590}
+  - key: {fileID: -1749587816639304220, guid: ad41cfa5b9fb648cfb4329d5b39f5791, type: 2}
+    value: {fileID: 499913164}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &224342948
@@ -889,6 +891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 499913163}
+  - component: {fileID: 499913164}
   m_Layer: 0
   m_Name: Stage
   m_TagString: Untagged
@@ -914,6 +917,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &499913164
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499913162}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &559995293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,7 +1066,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: ba4edb9f81ec844f2a50faa7cf37bf2d, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 96c8b1a3dc4064d4c94602e1b44f2547, type: 2}
 --- !u!4 &829285674
 Transform:
   m_ObjectHideFlags: 0
