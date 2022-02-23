@@ -11,6 +11,8 @@
 About the Demo scene
 --------------------
 
+![gif](https://user-images.githubusercontent.com/343936/155271738-f57a92cb-2221-4635-a44b-69e0a3c9d5bd.gif)
+
 The `Demo` scene uses a statue model (`Hosmer.blend`), but this repository
 doesn't contain the model file due to the file size limitation of GitHub.
 
