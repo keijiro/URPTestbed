@@ -22,7 +22,7 @@ opening the project because Unity will remove `.meta` file when the file body
 is missing.
 
 [the Releases page]:
-  https://github.com/keijiro/URPTestbed/releases
+  https://github.com/keijiro/URPTestbed/releases/tag/1.0.0
 
 You also have to install [Blender] to import `.blend` files.
 
