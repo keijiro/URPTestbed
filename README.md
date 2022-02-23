@@ -27,3 +27,15 @@ is missing.
 You also have to install [Blender] to import `.blend` files.
 
 [Blender]: https://www.blender.org
+
+Acknowledgements
+----------------
+
+The statue model used in the `Demo` scene was scaned by [threedscans.com].
+See the [original page] for further information about the statue.
+
+[threedscans.com]:
+  https://threedscans.com
+
+[original page]:
+  https://threedscans.com/saint-louis-art-museum/zenobia-in-chains/
