@@ -72,7 +72,7 @@
       }
     },
     "com.unity.timeline": {
-      "version": "1.6.3",
+      "version": "1.6.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {

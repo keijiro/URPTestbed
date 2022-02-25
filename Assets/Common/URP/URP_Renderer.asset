@@ -30,7 +30,8 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: -4304237367953515094}
   - {fileID: 4367094185153375572}
-  m_RendererFeatureMap: aa1d2b2eeb4644c454adbd0606099b3c
+  - {fileID: 5752744231834352506}
+  m_RendererFeatureMap: aa1d2b2eeb4644c454adbd0606099b3c7afb294666dad54f
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   shaders:
@@ -80,3 +81,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 0
   material: {fileID: 2100000, guid: fe6beea6000774dc38d707237426764a, type: 2}
+--- !u!114 &5752744231834352506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c739487d3048e4361a7056be3f90f282, type: 3}
+  m_Name: PostEffectFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  material: {fileID: 2100000, guid: 0df85c265cc6749aeacbe88e8261598f, type: 2}
