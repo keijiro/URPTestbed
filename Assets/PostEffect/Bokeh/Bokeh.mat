@@ -96,8 +96,9 @@ Material:
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Radius: 0.03
+    - _Radius: 0.01
     - _ReceiveShadows: 1
+    - _SampleCount: 32
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

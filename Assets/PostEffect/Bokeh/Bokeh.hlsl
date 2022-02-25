@@ -1,20 +1,15 @@
 void Bokeh_float
-  (UnityTexture2D source, float2 uv, float radius, float stepCount,
+  (UnityTexture2D source, float2 uv,
+   float aspect, float radius, float sampleCount,
    out float3 outColor)
 {
     float3 acc = 0;
-    float total = 0;
-    for (uint i = 0; i < stepCount; i++)
+    for (uint i = 0; i < sampleCount; i++)
     {
-        for (uint j = 0; j < stepCount; j++)
-        {
-            float dx = radius * (i - (stepCount - 1) * 0.5) / stepCount * 2;
-            float dy = radius * (j - (stepCount - 1) * 0.5) / stepCount * 2;
-            float3 s = tex2D(source, uv + float2(dx, dy)).rgb;
-            float w = dx * dx + dy * dy < radius * radius;
-            acc += s * w;
-            total += w;
-        }
+        float r = sqrt(i / sampleCount) * radius;
+        float phi = PI * (1 + sqrt(5)) * i;
+        float2 sp = uv + float2(cos(phi), sin(phi) * aspect) * r;
+        acc += tex2D(source, sp).rgb;
     }
-    outColor = acc / total;
+    outColor = acc / sampleCount;
 }
