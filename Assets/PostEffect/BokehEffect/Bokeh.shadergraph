@@ -307,9 +307,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -256.4999694824219,
+            "x": -256.5,
             "y": 200.0,
-            "width": 190.49996948242188,
+            "width": 190.5,
             "height": 190.0
         }
     },
@@ -346,7 +346,7 @@
     "m_SourceType": 1,
     "m_FunctionName": "Bokeh",
     "m_FunctionSource": "",
-    "m_FunctionBody": "float3 acc = 0;\n\nfor (uint i = 0; i < SampleCount; i++)\n{\n    float r = sqrt(i / SampleCount) * Radius;\n    float phi = PI * (1 + sqrt(5)) * i;\n    float2 sp = UV + float2(cos(phi), sin(phi) * Aspect) * r;\n    acc += tex2D(Source, sp).rgb;\n}\n\nOut = acc / SampleCount;"
+    "m_FunctionBody": "uint iteration = SampleCount;\nfloat invc = rcp(SampleCount);\nfloat3 acc = 0;\n\nfor (uint i = 0; i < iteration; i++)\n{\n    float r = sqrt(i * invc) * Radius;\n    float phi = PI * (1 + sqrt(5)) * i;\n    float2 sp = UV + float2(cos(phi), sin(phi) * Aspect) * r;\n    acc += tex2D(Source, sp).rgb;\n}\n\nOut = acc * invc;"
 }
 
 {
