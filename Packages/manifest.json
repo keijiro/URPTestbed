@@ -10,8 +10,8 @@
   ],
   "dependencies": {
     "com.unity.recorder": "4.0.0-pre.3",
-    "com.unity.render-pipelines.universal": "12.1.4",
-    "com.unity.visualeffectgraph": "12.1.4",
+    "com.unity.render-pipelines.universal": "12.1.5",
+    "com.unity.visualeffectgraph": "12.1.5",
     "com.unity.visualscripting": "1.7.7",
     "jp.keijiro.danish-statues": "1.0.0",
     "jp.keijiro.klak.math": "1.0.3",
