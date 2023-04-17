@@ -39,8 +39,8 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0.2
   contrast:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 3
   colorFilter:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -49,7 +49,7 @@ MonoBehaviour:
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: 8
+    m_Value: 30
 --- !u!114 &-4640497942239567800
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -108,13 +108,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 5152762953334917281}
-  - {fileID: 8488224871273162623}
+  - {fileID: 5250606483361338510}
   - {fileID: -4640497942239567800}
-  - {fileID: 533443186436651641}
-  - {fileID: -1296329964931254337}
   - {fileID: -5849420108536201501}
-  - {fileID: 8684699168144037403}
+  - {fileID: -1296329964931254337}
+  - {fileID: 533443186436651641}
   - {fileID: -7518990999202451478}
+  - {fileID: 8684699168144037403}
+  - {fileID: 8488224871273162623}
 --- !u!114 &533443186436651641
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -130,7 +131,7 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.85689, y: 0.87710536, z: 1, w: 0.08902078}
+    m_Value: {x: 0.85689, y: 0.87710536, z: 1, w: -0.04034532}
   midtones:
     m_OverrideState: 1
     m_Value: {x: 0.90963954, y: 0.95737886, z: 1, w: 0}
@@ -162,12 +163,15 @@ MonoBehaviour:
   m_Name: Bloom
   m_EditorClassIdentifier: 
   active: 1
+  skipIterations:
+    m_OverrideState: 0
+    m_Value: 1
   threshold:
     m_OverrideState: 1
     m_Value: 0.8
   intensity:
     m_OverrideState: 1
-    m_Value: 0.6
+    m_Value: 1
   scatter:
     m_OverrideState: 1
     m_Value: 0.9
@@ -180,15 +184,86 @@ MonoBehaviour:
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 0
-  skipIterations:
+  downscale:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 0
+  maxIterations:
+    m_OverrideState: 0
+    m_Value: 6
   dirtTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
+    dimension: 1
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &5250606483361338510
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06437c1ff663d574d9447842ba0a72e4, type: 3}
+  m_Name: ScreenSpaceLensFlare
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.25
+  tintColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  bloomMip:
+    m_OverrideState: 0
+    m_Value: 1
+  firstFlareIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+  secondaryFlareIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+  warpedFlareIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+  warpedFlareScale:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  samples:
+    m_OverrideState: 1
+    m_Value: 3
+  sampleDimmer:
+    m_OverrideState: 0
+    m_Value: 0.5
+  vignetteEffect:
+    m_OverrideState: 0
+    m_Value: 1
+  startingPosition:
+    m_OverrideState: 0
+    m_Value: 1.25
+  scale:
+    m_OverrideState: 0
+    m_Value: 1.5
+  streaksIntensity:
+    m_OverrideState: 1
+    m_Value: 0.6
+  streaksLength:
+    m_OverrideState: 1
+    m_Value: 0.9
+  streaksOrientation:
+    m_OverrideState: 0
+    m_Value: 0
+  streaksThreshold:
+    m_OverrideState: 0
+    m_Value: 0.25
+  resolution:
+    m_OverrideState: 0
+    m_Value: 4
+  chromaticAbberationIntensity:
+    m_OverrideState: 0
+    m_Value: 0.5
 --- !u!114 &8488224871273162623
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -205,6 +280,30 @@ MonoBehaviour:
   mode:
     m_OverrideState: 1
     m_Value: 2
+  neutralHDRRangeReductionMode:
+    m_OverrideState: 0
+    m_Value: 2
+  acesPreset:
+    m_OverrideState: 0
+    m_Value: 3
+  hueShiftAmount:
+    m_OverrideState: 0
+    m_Value: 0
+  detectPaperWhite:
+    m_OverrideState: 0
+    m_Value: 0
+  paperWhite:
+    m_OverrideState: 0
+    m_Value: 300
+  detectBrightnessLimits:
+    m_OverrideState: 0
+    m_Value: 1
+  minNits:
+    m_OverrideState: 0
+    m_Value: 0.005
+  maxNits:
+    m_OverrideState: 0
+    m_Value: 1000
 --- !u!114 &8684699168144037403
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -223,7 +322,7 @@ MonoBehaviour:
     m_Value: 2
   intensity:
     m_OverrideState: 1
-    m_Value: 0.3
+    m_Value: 0.4
   response:
     m_OverrideState: 0
     m_Value: 0.8

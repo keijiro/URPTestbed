@@ -3,10 +3,10 @@
 ![screenshot](https://user-images.githubusercontent.com/343936/155268050-1aa61259-dddf-4644-bfab-8f569d1286e8.png)
 
 **URPTestbed** is a testbed project for testing the new features of
-[Universal Render Pipeline (URP) 12].
+[Universal Render Pipeline (URP)].
 
-[Universal Render Pipeline (URP) 12]:
-  https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@12.0/manual/
+[Universal Render Pipeline (URP)]:
+  https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@15.0/manual/
 
 About the Demo scene
 --------------------
