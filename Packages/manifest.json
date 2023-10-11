@@ -9,16 +9,16 @@
     }
   ],
   "dependencies": {
-    "com.unity.recorder": "4.0.0",
-    "com.unity.render-pipelines.universal": "15.0.5",
-    "com.unity.visualeffectgraph": "15.0.5",
+    "com.unity.recorder": "4.0.1",
+    "com.unity.render-pipelines.universal": "15.0.6",
+    "com.unity.visualeffectgraph": "15.0.6",
     "com.unity.visualscripting": "1.8.0",
     "jp.keijiro.danish-statues": "1.0.0",
-    "jp.keijiro.klak.math": "2.0.0",
-    "jp.keijiro.klak.motion": "1.0.2",
+    "jp.keijiro.klak.math": "2.1.0",
+    "jp.keijiro.klak.motion": "1.1.0",
     "jp.keijiro.klak.timeline.procedural-motion": "1.0.2",
     "jp.keijiro.klak.visualscripting": "1.1.0",
-    "jp.keijiro.metamesh": "1.1.1",
+    "jp.keijiro.metamesh": "1.2.0",
     "jp.keijiro.metatex": "1.0.4",
     "jp.keijiro.shadergraphassets": "2.5.2",
     "jp.keijiro.vfxgraphassets": "1.2.0"
